@@ -1,36 +1,25 @@
-# Justificación
-Este Repositorio es Un Sandbox para La Clase de Programación web
+# Proyecto Web
 
-# Demostracion de Habilidad en MarkDown
-## Encabezados
-Los Encabezados se Llevan a partir del simbolo '#'. Cuantos mas Simbolos de este tipo, Mas Pequeño el Encabezado, Hasta un Maximo de 6
+Una Aplicacion de Conocimientos de Programacion Web
 
-# Encabezado Nivel 1
-## Encabezado Nivel 2
-### Encabezado Nivel 3
-#### Encabezado Nivel 4
-##### Encabezado Nivel 5
-###### Encabezado Nivel 6
-```
-# Encabezado Nivel 1
-## Encabezado Nivel 2
-### Encabezado Nivel 3
-#### Encabezado Nivel 4
-##### Encabezado Nivel 5
-###### Encabezado Nivel 6
+## Instalación
+
+```bash
+# Copy Repository
+
+git clone https://github.com/RomeroIsHere/RequiredRepoForClass
+
+# Install Node
+
+npm install
+
+# Run as Developer
+
+npm run dev
 
 ```
 
-## Estilos de Texto
-
-- Cursiva: *Ejemplo*
-- Negritas:**Ejemplo**
-- Rayado: ~~Ejemplo~~
-- SubScript: <sub>Ejemplo</sub>
-- SuperScript:<sup>Ejemplo</sup>
-- Underline:<ins>Ejemplo</ins>
-
-### Combinaciones
-Se pueden Usar Combina
-
-Negritas ***Ejemplo***
+## Uso
+```javascript
+import {MyApp} from 'my_app.js'
+```

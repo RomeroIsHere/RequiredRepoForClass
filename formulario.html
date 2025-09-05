@@ -42,10 +42,10 @@
             <input type="tel" name="phone" placeholder="+52 00000000" id="phone" required>
             <br>
             <label for="website">
-                URL de tu sitio Personal<span class="redText">*</span>
+                URL de tu sitio Personal
             </label>
             <br>
-            <input type="url" name="website" placeholder="www.example.com" id="website" required>
+            <input type="url" name="website" placeholder="www.example.com" id="website">
         </fieldset>
         <fieldset>
             <legend>Informacion Adicional</legend>
@@ -74,7 +74,68 @@
                 Color Favorito
             </label>
             <br>
-            <input type="color" name="favcolor" placeholder="#FFFFFF" id="favcolor">
+            <input type="color" name="favcolor" value="#FFFFFF" id="favcolor">
+            <br>
+            
+            <label for="country">
+                Paises
+            </label>
+            <br>
+            <select name="country" id="country">
+                <option value="">-- Selecciona una Opción</option>
+                <option value="Mexico">Mexico</option>
+                <option value="España">España</option>
+                <option value="Argentina">Argentina</option>
+            </select>
+            <br>
+            <label for="city">
+                Ciudad
+            </label>
+            <br>
+            <input list="city-list"" name="city" id="city" placeholder="Escribe una Ciudad">
+            <datalist id="city-list">
+                <option value="Lagos de Moreno"></option>
+                <option value="Guadalajara"></option>
+
+                <option value="Madrid"></option>
+                <option value="Barcelona"></option>
+
+            </datalist>
+            <br>
+            <label for="avatar">
+                Imagen de Perfil
+            </label>
+            <br>
+            <input type="file" id="avatar" name="avatar">
+            <br>
+            <label for="interests">
+                Temas que Te Interesan
+            </label>
+            <br>
+            <input type="checkbox" id="Tecnologia" name="interests" value="Tecnologia">
+            <label for="Tecnologia">Tecnologia</label>
+            <br>
+            <input type="checkbox" id="Deportes" name="interests" value="Deportes">
+            <label for="Deportes">Deportes</label>
+            <br>
+            <!-- <input type="checkbox" id="Tecnologia" name="interests" value="Tecnologia">
+            <label for="Tecnologia">Tecnologia</label>
+            <br>
+            <input type="checkbox" id="Tecnologia" name="interests" value="Tecnologia">
+            <label for="Tecnologia">Tecnologia</label> -->
+            <br>
+            <label for="subscribe-level">
+                Selecciona Nivel de Subscripcióm
+            </label>
+            <input type="radio" name="subscribe-level" id="basico" value="basico" >
+            <label for="basico">Basico</label>
+            <input type="radio" name="subscribe-level" id="premium" value="premium" checked>
+            <label for="premium">Premium</label>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetear">
+            <input type="button" value="Boton Generico">
+            <br>
             <br>
         </fieldset>
     </form>
